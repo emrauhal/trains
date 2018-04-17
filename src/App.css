@@ -1,0 +1,41 @@
+body {
+   background-image: url("./railroad.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+ }
+
+input, select {
+  margin: 5px;
+}
+
+legend {
+    font-size: large;
+}
+
+tr, th, td {
+  padding: 5px 22px;
+}
+
+.train {
+  border-style: solid;
+  border-width: thin;
+}
+
+.App {
+  text-align: center;
+  margin-top: 3cm;
+  margin-left: 7cm;
+  margin-right: 7cm;
+  padding: 2%;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.6);
+
+}
+
+.App-header {
+  background-color: bisque;
+  height: 150px;
+  padding: 20px;
+  color: black;
+}
