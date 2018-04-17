@@ -16,7 +16,6 @@ class Form extends Component {
     ready = (event) => {
         event.preventDefault();
         this.props.search(this.state.dep, this.state.arr);
-        // this.setState({dep: '', arr: ''});
     }
 
     render() {
