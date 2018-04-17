@@ -13,8 +13,12 @@ legend {
     font-size: large;
 }
 
+table {
+    align-content: center;
+}
+
 tr, th, td {
-  padding: 5px 22px;
+  padding: 1% 5%;
 }
 
 .train {
@@ -25,17 +29,10 @@ tr, th, td {
 .App {
   text-align: center;
   margin-top: 3cm;
-  margin-left: 7cm;
-  margin-right: 7cm;
-  padding: 2%;
-  border-radius: 5px;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  padding: 2vw 10vw;
+  border-radius: 20px;
   background: rgba(255, 255, 255, 0.6);
 
-}
-
-.App-header {
-  background-color: bisque;
-  height: 150px;
-  padding: 20px;
-  color: black;
 }
