@@ -17,22 +17,44 @@ table {
     align-content: center;
 }
 
-tr, th, td {
-  padding: 1% 5%;
+.train {
+    border-style: solid;
+    border-width: thin;
 }
 
-.train {
-  border-style: solid;
-  border-width: thin;
+tr, th, td {
+    padding: 1% 3%;
+    margin: 1% 5%;
 }
 
 .App {
-  text-align: center;
-  margin-top: 3cm;
-  margin-left: 25vw;
-  margin-right: 25vw;
-  padding: 2vw 10vw;
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.6);
-
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.6);
 }
+
+@media only screen and (max-width: 599px) {
+    #App {
+        margin-top: 1cm;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 2% 7%;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+    #App {
+        margin-top: 2cm;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 2% 7%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    #App {
+        margin-top: 3cm;
+        margin-left: 29%;
+        margin-right: 29%;
+        padding: 2% 7%;
+    }
+}
+
